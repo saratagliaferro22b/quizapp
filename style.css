@@ -15,8 +15,8 @@
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #f8e6dc;
     --bg-css: #c6ffe4;
-    --bg-javascript: #e2e7f8; 
-    --bg-acessibilidade: #f6e7ff;
+    --bg-javascript: rgba(204, 215, 248, 0.959); 
+    --bg-acessibilidade: hwb(279 66% 2% / 0.459);
     --button-bg: #fff;
     --secondary-text-color: #626c7f;
 
@@ -114,9 +114,22 @@ header {
         padding: 12px;
         border-radius: 12px;
         box-shadow: var(--shadow);
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--primary-text-color);
     } 
 
-    .botao_html  div {
+    .assuntos button div {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+   .assuntos button img {
+    width: 100%;
+   }
+    .botao_html div {
         background:var(--bg-html);
 
     }
@@ -125,11 +138,12 @@ header {
         background: var(--bg-css);
     }
 
-    .botao_javascript {
-        background: var(--bg-javascript); 
+    .botao_javascript div {
+        background: var(--bg-javascript);
+        
     }
 
-    .botao_acessibilidade {
+    .botao_acessibilidade div {
         background: var(--bg-acessibilidade);
 
     }
