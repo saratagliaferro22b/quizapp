@@ -8,15 +8,15 @@
 }
 
 :root {
-    --bg-color: rgb(255, 255, 255);
-    --purple: hwb(277 22% 5%);
+    --bg-color: #f4f5fa;
+    --purple: #a729f5;
     --primary-text-color: #313e51;
     --white: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #f8e6dc;
     --bg-css: #c6ffe4;
-    --bg-javascript: rgba(204, 215, 248, 0.959); 
-    --bg-acessibilidade: hwb(279 66% 2% / 0.459);
+    --bg-javascript: #c5d4ff; 
+    --bg-acessibilidade: #e2bbf8;
     --button-bg: #fff;
     --secondary-text-color: #626c7f;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -26,7 +26,19 @@
 }
 
 
+ body.escuro {
+    --bg-color: #313e51;
+    --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
+    --primary-text-color: #fff;
+    --button-bg: #3b4d66;
+    --secondary-text-color: #abc1e1;
+    --shadow: 0px 16px 40px 0px #rgba(49,62,81,0.14);
+
+     }
+
 body {
+
     height: 100svh;
     background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
@@ -166,7 +178,7 @@ header {
       }
 
       .tema { 
-        
+
         gap: 16px;
       }
 
