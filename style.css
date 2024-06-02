@@ -19,18 +19,20 @@
     --bg-acessibilidade: hwb(279 66% 2% / 0.459);
     --button-bg: #fff;
     --secondary-text-color: #626c7f;
-
-    --bg--mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
+    
 
 }
 
 
 body {
     height: 100svh;
-    background: var(--bg--mobile) var(--bg-color);
+    background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 header {
 
@@ -147,4 +149,68 @@ header {
         background: var(--bg-acessibilidade);
 
     }
+
+    @media(min-width: 1100px) {
+
+        body {
+            background: var(--bg-desktop);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    
+
+      header {
+
+        margin-block: 81px;
+      }
+
+      .tema img {
+
+        
+      }
+       
+      main {
+        display: flex;
+        max-width: 1160px; 
+        margin-inline: auto;
+      }
+
+      section {
+
+        width: 100%;
+      }
+
+      .boas_vindas h1 {
+
+        font-size: 64px; 
+        margin-bottom: 48px;
+      }
+
+      .boas_vindas p {
+
+        font-size: 20px;
+      }
+
+      .assuntos {
+
+        gap: 24px;
+      }
+      .assuntos button {
+         
+        font-size: 28px;
+        padding: 20px;
+        gap: 32px;
+      }
+      .assuntos button div {
+
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+      }
+          
+    }
+        
+      
+    
 
