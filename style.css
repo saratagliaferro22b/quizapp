@@ -8,21 +8,19 @@
 }
 
 :root {
-    --bg-color: #f4f5fa;
-    --purple: #a729f5;
-    --primary-text-color: #313e51;
-    --white: #fff;
-    --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
-    --bg-html: #f8e6dc;
-    --bg-css: #c6ffe4;
-    --bg-javascript: #c5d4ff; 
-    --bg-acessibilidade: #e2bbf8;
-    --button-bg: #fff;
-    --secondary-text-color: #626c7f;
-    --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
-    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
-    
-
+  --bg-color: #f4f5fa;
+  --purple: #a729f5;
+  --primary-text-color: #313e51;
+  --secondary-text-color: #626c7f;
+  --button-bg: #fff;
+  --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+  --bg-html: #f8e6dc;
+  --bg-css: #c6ffe4; 
+  --bg-acessibilidade: #dfb5f7;
+  -bg-javascript: #c5d4ff;
+  --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
+  --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
+  
 }
 
 
