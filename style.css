@@ -24,7 +24,7 @@
 }
 
 
- body.escuro {
+body.escuro {
     --bg-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
@@ -33,8 +33,6 @@
     --secondary-text-color: #abc1e1;
     --shadow: 0px 16px 40px 0px #rgba(49,62,81,0.14);
  }
-    
-  
 
 body {
 
@@ -75,10 +73,10 @@ header {
 }
 
 .tema button div {
-    background: var(--white);
-     width: 12px;
-     height: 12px;
-    border-radius: 99px;
+  background: var(--white);
+  width: 12px;
+  height: 12px;
+  border-radius: 99px;
     }
 
     main{
@@ -172,12 +170,10 @@ header {
     
 
       header {
-
         margin-block: 81px;
       }
 
       .tema { 
-
         gap: 16px;
       }
 
