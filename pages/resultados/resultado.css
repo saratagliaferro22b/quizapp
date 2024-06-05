@@ -23,8 +23,6 @@
     --bg-acessibilidade: #dfb5f7;
     -bg-javascript: #c5d4ff;
     --white: #fff;
-    --green: #26d782;
-    --red: #ee5454;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -131,6 +129,7 @@ header {
         gap: 16px;
         border-radius: 12px;
         margin-bottom: 12px;
+        box-shadow: var(--shadow);
     }
 
 
@@ -156,6 +155,7 @@ header {
         font-size: 18px;
         font-weight: 500;
         transition: background 0.3s;
+        box-shadow: var(--shadow);
     }
 
     main button:hover {
