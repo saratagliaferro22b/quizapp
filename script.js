@@ -8,3 +8,13 @@ botaoTema.addEventListener("click",() => {
 })
 
 verificarTema(body, botaoTema)
+
+const botoesAssunto = document.querySelectorAll(".assuntos button")
+botoesAssunto.forEach(botao => {
+   botao.addEventilistener("click", selecionarAssunto)
+})
+
+function selecionarAssunto(evento) {
+   const assunto = evento.target.innerText
+   console.log(assunto)
+}

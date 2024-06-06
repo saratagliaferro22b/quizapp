@@ -26,6 +26,7 @@
 
 body.escuro {
   --bg-color: #2a3444;
+  --white: #fff;
   --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
   --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
   --primary-text-color: #fff;
@@ -70,22 +71,21 @@ header {
     border: 0;
     border-radius: 999px;
     padding: 4px;
-    display: flex;
-    cursor: pointer;
+  
 }
+    
 
 
 .tema button div {
-   background: var(--white);
-   width: 12px;
-   height: 12px;
-   border-radius: 999px;
+  background:  var(--white);
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
 }
   
 
 main{
    padding: 32px 24px;
-
  } 
 
 .boas_vindas {
