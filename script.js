@@ -1,33 +1,13 @@
-let tema = "claro"
+import { trocarTema, verificarTema } from "./helpers/tema-helper.js"
+
+
 
 const botaoTema = document.querySelector (".tema button")
-botaoTema.addEventListener("click", trocarTema)
+const body = document.querySelector("body")
 
-function trocarTema() {
-    if(localStorage.getItem("tema")) {
-      tema = localStorage.gentItem ("tema")     
-   }
+botaoTema.addEventListener("click",() => {
+   trocarTema(body, botaoTema)
+})
 
-   const body = document.querySelector("body")
 
-   if (tema ==="claro") {
-     body.classList.add("escuro")
-     localStorage.setItem("tema", "escuro")
-     botaoTema
-   } else {
-      body.classList.remove("escuro")
-      localStorage.setItem("tema", "claro")
-   }
-}
-
-function verficarTema() {
-   if (localStorage.getItem("tema")) {
-      tema = localStorage.getItem("tema")
-   }
-
-   if (tema === "escuro") {
-      body.classList.add("escuro")
-   }
-}
-
-verficarTema()
+verificarTema(body, botaoTema)
